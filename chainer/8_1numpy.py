@@ -33,6 +33,8 @@ print(center)
 e[1:3,1:4]=0 # 指定部に０を代入
 print(e)
 
-a = np.arange(3,10,1)
+a = np.arange(3,10,1) 
 print(a)
 
+a=np.random.randint(0,10,(2,1,3)) # 0 ~ 9 の範囲の値をランダムに用いて埋められた (2, 1, 3) と (3, 1) という大きさの配列を作る
+print(a)
